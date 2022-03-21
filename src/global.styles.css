@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0;
+}
+
+
+#app {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(228,235,245,1) 100%);
+    min-height: 100vh;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
